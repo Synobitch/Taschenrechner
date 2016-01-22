@@ -77,6 +77,7 @@
             this.button_3.TabIndex = 2;
             this.button_3.Text = "3";
             this.button_3.UseVisualStyleBackColor = true;
+            this.button_3.Click += new System.EventHandler(this.button_3_Click);
             // 
             // button_4
             // 
@@ -86,6 +87,7 @@
             this.button_4.TabIndex = 3;
             this.button_4.Text = "4";
             this.button_4.UseVisualStyleBackColor = true;
+            this.button_4.Click += new System.EventHandler(this.button_4_Click);
             // 
             // button_5
             // 
@@ -95,6 +97,7 @@
             this.button_5.TabIndex = 4;
             this.button_5.Text = "5";
             this.button_5.UseVisualStyleBackColor = true;
+            this.button_5.Click += new System.EventHandler(this.button_5_Click);
             // 
             // button_6
             // 
@@ -104,6 +107,7 @@
             this.button_6.TabIndex = 5;
             this.button_6.Text = "6";
             this.button_6.UseVisualStyleBackColor = true;
+            this.button_6.Click += new System.EventHandler(this.button_6_Click);
             // 
             // button_7
             // 
@@ -113,6 +117,7 @@
             this.button_7.TabIndex = 6;
             this.button_7.Text = "7";
             this.button_7.UseVisualStyleBackColor = true;
+            this.button_7.Click += new System.EventHandler(this.button_7_Click);
             // 
             // button_8
             // 
@@ -122,6 +127,7 @@
             this.button_8.TabIndex = 7;
             this.button_8.Text = "8";
             this.button_8.UseVisualStyleBackColor = true;
+            this.button_8.Click += new System.EventHandler(this.button_8_Click);
             // 
             // button_9
             // 
@@ -131,6 +137,7 @@
             this.button_9.TabIndex = 8;
             this.button_9.Text = "9";
             this.button_9.UseVisualStyleBackColor = true;
+            this.button_9.Click += new System.EventHandler(this.button_9_Click);
             // 
             // Button_0
             // 
@@ -150,6 +157,7 @@
             this.button_Punkt.TabIndex = 10;
             this.button_Punkt.Text = ".";
             this.button_Punkt.UseVisualStyleBackColor = true;
+            this.button_Punkt.Click += new System.EventHandler(this.button_Punkt_Click);
             // 
             // button_Gleich
             // 
