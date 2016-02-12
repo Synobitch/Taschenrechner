@@ -86,12 +86,11 @@ namespace Projekt_Taschenrechner
 
         private void button_Punkt_Click(object sender, EventArgs e)
         {
-            string punkt = ".";
-            int bool1 = 0;
-            if (bool1 == 0)
+            if (!textBox1.Text.Contains("."))
             {
-                punkt 
+                textBox1.Text += ".";
             }
+             
         }
     }
 }
