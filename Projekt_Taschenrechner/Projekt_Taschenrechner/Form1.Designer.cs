@@ -176,6 +176,7 @@
             this.button_Plus.TabIndex = 12;
             this.button_Plus.Text = "+";
             this.button_Plus.UseVisualStyleBackColor = true;
+            this.button_Plus.Click += new System.EventHandler(this.button_Plus_Click);
             // 
             // button_Minus
             // 
@@ -229,7 +230,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(354, 20);
             this.textBox1.TabIndex = 18;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Form1
             // 

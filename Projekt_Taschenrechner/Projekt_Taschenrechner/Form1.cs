@@ -18,12 +18,6 @@ namespace Projekt_Taschenrechner
             InitializeComponent();
             
         }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             int zahl2 = 2;
@@ -91,6 +85,15 @@ namespace Projekt_Taschenrechner
                 textBox1.Text += ".";
             }
              
+        }
+
+        private void button_Plus_Click(object sender, EventArgs e)
+        {
+            string Plus = "+";
+            if (!textBox1.Text.Contains(Plus))
+            {
+                textBox1.Text += Plus;
+            }
         }
     }
 }
