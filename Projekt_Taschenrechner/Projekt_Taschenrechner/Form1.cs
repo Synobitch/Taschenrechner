@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-//hi
+
 namespace Projekt_Taschenrechner
 {
     public partial class Form1 : Form
@@ -93,18 +93,7 @@ namespace Projekt_Taschenrechner
             if (!textBox1.Text.Contains(Plus))
             {
                 textBox1.Text += Plus;
-
             }
         }
-        public void Rechnung()
-        {
-            int zahl = 0;
-            switch (zahl)
-            {
-                case 1:
-                    
-                default:
-                    break;
-            }        }
     }
 }
