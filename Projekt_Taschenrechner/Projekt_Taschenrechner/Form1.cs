@@ -24,10 +24,6 @@ namespace Projekt_Taschenrechner
             int zahl2 = 2;
             textBox1.AppendText(zahl2.ToString());
             Zahl1 += zahl2.ToString();
-            if (Operator = )
-            {
-                
-            }
             
         }
 
@@ -110,6 +106,7 @@ namespace Projekt_Taschenrechner
         {
             textBox1.Text = Zahl1.ToString();
         }
+
 
     }
 }
