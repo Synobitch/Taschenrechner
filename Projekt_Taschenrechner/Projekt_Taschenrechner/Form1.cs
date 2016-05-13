@@ -12,9 +12,10 @@ namespace Projekt_Taschenrechner
 {
     public partial class Form1 : Form
     {
+        string Zahl1, Zahl2, Zahl3;
+        string Operator;
         public Form1()
         {
-
             InitializeComponent();
             
         }
@@ -22,24 +23,33 @@ namespace Projekt_Taschenrechner
         {
             int zahl2 = 2;
             textBox1.AppendText(zahl2.ToString());
+            Zahl1 += zahl2.ToString();
+            if (Operator = )
+            {
+                
+            }
+            
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
             int zahl0 = 0;
             textBox1.AppendText(zahl0.ToString());
+            Zahl1 += zahl0.ToString();
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             int zahl1 = 1;
             textBox1.AppendText(zahl1.ToString());
+            
         }
 
         private void button_3_Click(object sender, EventArgs e)
         {    
-                int zahl3 = 3;
-                textBox1.AppendText(zahl3.ToString());          
+            int zahl3 = 3;
+            textBox1.AppendText(zahl3.ToString());          
         }
 
         private void button_4_Click(object sender, EventArgs e)
@@ -95,5 +105,11 @@ namespace Projekt_Taschenrechner
                 textBox1.Text += Plus;
             }
         }
+
+        private void button_Gleich_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = Zahl1.ToString();
+        }
+
     }
 }

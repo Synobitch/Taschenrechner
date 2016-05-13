@@ -167,6 +167,7 @@
             this.button_Gleich.TabIndex = 11;
             this.button_Gleich.Text = "=";
             this.button_Gleich.UseVisualStyleBackColor = true;
+            this.button_Gleich.Click += new System.EventHandler(this.button_Gleich_Click);
             // 
             // button_Plus
             // 
